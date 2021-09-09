@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>PLLI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Elevation Church NG PLLI "/>
+    <meta name="keywords" content="The Elevation Church NG PLLI " />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- tobii css -->
+    <!-- <link href="css/tobii.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- Icons -->
+    <!-- <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"> -->
+      <!-- font awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Slider -->
+    <!-- <link rel="stylesheet" href="css/tiny-slider.css" /> -->
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <!-- <link href="css/colors/default.css" rel="stylesheet" id="color-opt"> -->
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky bg-white shadow-lg">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="./">
+                <span class="logo-light-mode">
+                    <img src="images/logo-light.png" class="l-dark" height="60" alt="">
+                    <img src="images/logo-light.png" class="l-light py-1" height="70" alt="">
+                </span>
+                <img src="images/logo-light.png" height="24" class="logo-dark-mode py-2" alt="">
+            </a>
+            <div class="buy-button">
+                <a href="./register.html">
+                    <div class="btn btn-primary login-btn-primary">Register</div>
+                    <div class="btn btn-secondary login-btn-light">Register</div>
+                </a>
+            </div>
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu nav-dark justify-content-end">
+                    <li><a href="./" class="sub-menu-item">Home</a></li>
+                    <li><a href="./#about" class="sub-menu-item">About</a></li>
+                    <li><a href="./#speakers" class="sub-menu-item">Speakers</a></li>
+                    <li><a href="./#schedule" class="sub-menu-item">Schedule</a></li>
+                    <li><a href="./#connect" class="sub-menu-item">Connect</a></li>
+                </ul>
+                <!--end navigation menu-->
+                <div class="buy-menu-btn d-none">
+                    <a href="./register.html" class="btn btn-secondary">Register</a>
+                </div>
+                <!--end login button-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+  
+
+   
+
+ 
+
+
+    <!-- Price Start -->
+    <section class="section pt-5 mt-5" id="tickets">
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title mb-4 pb-2">
+                        
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+
+            <div class="row">
+                <div class="col-md-4 offset-md-1">
+                    <div class=" mt-4 pt-2">
+                        <div class="card pricing-rates best-plan text-center border-0 shadow rounded">
+                            <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span class="text-center d-block shadow small h6">Best</span></div>
+                            <div class="card-body py-5">
+                                <img src="images/icon/ticket2.svg" class="mb-4" height="50" alt="">
+                                <h6 class="title text-uppercase fw-bold mb-4">Registration Fee</h6>
+                                <div class=" mb-4">
+                                    <span class="h4 mb-0 mt-2 mr-2 text-secondary">NGN</span>
+                                    <span class="price h1 mb-0 ml-3 text-secondary">75,000</span>
+                                  
+                                    <p class="h4 align-self-end my-3"> or</p>
+                                  
+                                    <span class="h4 mb-0 mt-2 mr-2 text-secondary">$</span>
+                                    <span class="price h1 mb-0 ml-3 text-secondary">150 </span>
+                                    <span class="price h4 mb-0 ml-3 text-secondary">USD </span>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div>
+               
+
+                <div class="col-md-6 offset-md-1 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="card shadow rounded border-0">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Register Now</h4>
+
+                            <form class="login-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label"> Name of Organization :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i  class="fea icon-sm icons fas fa-building"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name of organization :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label"> Location Organization :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="map-pin"  class="fea icon-sm icons"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Location of organization :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Current Problem that led you to apply for this program :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-square" class="fea icon-sm icons"></i>
+                                                <textarea id="postal_address" name="postal_address" class="form-control ps-5"></textarea>
+                                          
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">What you expect to change in your line of work post-program :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-square" class="fea icon-sm icons"></i>
+                                                <textarea id="postal_address" name="postal_address" class="form-control ps-5"></textarea>
+                                          
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Other expectations from the event :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-square" class="fea icon-sm icons"></i>
+                                                <textarea id="postal_address" name="postal_address" class="form-control ps-5"></textarea>
+                                          
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Are you a member of TEC? If yes, indicate your expression below :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="home" class="fea icon-sm icons"></i>
+                                                <select id="expression" name="expression" class="form-control ps-5" required="">   
+                                                    <option value=""></option>
+                                                    <option value="Not a member">Not a member</option>                                              
+                                                    <option value="TEC Online Church">TEC Online Church</option>
+                                                    <option value="TEC Lekki">TEC Lekki</option>
+                                                    <option value="Lifepointe Church">Lifepointe Church</option>
+                                                    <option value="TEC Maryland">TEC Maryland</option>
+                                                    <option value="TEC Ikorodu">TEC Ikorodu </option>
+                                                    <option value="TEC Greater Lekki">TEC Greater Lekki</option>
+                                                    <option value="Elevate Community Church GTA, Ontario CA">Elevate Community Church GTA, Ontario CA</option>
+            
+                                                </select>
+                                          
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Currency :<span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i  class="fea icon-sm icons fab fas fa fa-money"></i>
+                                                    <select id="expression" name="expression" class="form-control ps-5" required="">   
+                                                        <option value=""></option>
+                                                        <option value="Not a member">Nigerian (NGN)</option>                                              
+                                                        <option value="TEC Online Church">US Dollar (USD)</option>
+                                                       
+                                                    </select>
+                                              
+                                                </div>
+                                            </div>
+                                            </div>
+                                            
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Number of People :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="users" class="fea icon-sm icons"></i>
+                                                <input name="number" type="number" class="form-control ps-5" min="1" step="1" placeholder="Number of people">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+
+                                    <div class="col-12 border-3 border-primary py-2"> <hr class="text-primary"/></div>
+
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Name :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="First Name :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Designation :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i  class="fea icon-sm icons fas fa-suitcase"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="First Name :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Email :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Your email :">
+                                            </div>
+                                        </div> 
+                                    </div><!--end col-->
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Phone no. :<span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="phone" class="fea icon-sm icons"></i>
+                                                <input name="number" id="number" type="number" class="form-control ps-5" placeholder="Your phone no. :">
+                                            </div>
+                                        </div> 
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">I Accept <a href="./terms.html" class="text-primary">Terms And Condition</a></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-2">
+                                        <button class="btn btn-primary w-100">Register Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+
+      
+      
+    </section><!--end section-->
+    <!-- Price End -->
+
+  
+
+      <!-- News Start -->
+      <section class="section d-flex justify-content-center">
+        <div class="container mx-2 my-4 text-white bg-primary py-5 px-2 px-lg-0 px-xl-0 text-center col-md-9 col-lg-7 shadow-lg rounded-3">
+        <div class="row px-lg-5">
+        <div class="col-xl-6 col-md-12 justify-content-center d-flex align-items-center">
+            <div class="py-1 py-lg-2">
+                <h2 class=" mb-4 mb-lg-5 text-white">Connect with us</h2>
+                <div class=" mb-4 text-white" style="font-size: x-large; color:#fff">
+                  <a href="https://www.facebook.com/accelerationng" target="_blank" style="color:#fff" class="p-2 mx-3"><i
+                      class=" my-2 fab fa-facebook"></i></a>
+                  <a href="https://www.twitter.com/accelerationng" target="_blank" style="color:#fff" class="p-2  mx-3"><i
+                      class=" my-2 fab fa-twitter"></i></span></a>
+                  <a href="https://www.instagram.com/accelerationng/" target="_blank" style="color:#fff" class="p-2  mx-3"><i
+                      class=" my-2 fab fa-instagram"></i></a>
+                  <a href="#!" target="_blank" style="color:#fff" class="p-2  mx-3"><i
+                      class=" my-2 fab fa-youtube"></i></a>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-xl-6 d-none d-xl-flex justify-content-center text-center">
+            <img src="./images/undraw_Social_ideas_re_j5v4 .svg" alt="" class="img-fluid" style="max-height: 30vh;">
+        </div>
+    </div>
+       
+      </div>
+        <!--end container-->
+
+      
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End News -->
+
+   
+
+    
+    <footer class="footer footer-bar bg-black border-0">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-8">
+                    <div class="text-sm-start">
+                        <p class="mb-0"> Copyright &copy;
+                            <script> document.write(new Date().getFullYear())</script>. All Rights Reserved | The Elevation Church
+                        </p>
+                    </div>
+                </div>
+                <!--end col-->
+
+               
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i
+            data-feather="arrow-up" class="icons"></i></a>
+    <!-- Back to top -->
+
+
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Parallax -->
+    <!-- <script src="js/parallax.js "></script> -->
+    <!-- tobii js -->
+    <!-- <script src="js/tobii.min.js "></script> -->
+    <!-- SLIDER -->
+    <!-- <script src="js/tiny-slider.js "></script> -->
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <!-- <script src="js/plugins.init.js"></script> -->
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+
+</html>
